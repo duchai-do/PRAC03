@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         countryList.add(new Country("India", "New Delhi", R.drawable.india, "1.428 billion", "2,973,190 km²", "Density: 428 per/km²", "World Share: 17.7%"));
         countryList.add(new Country("China", "Beijing", R.drawable.china, "1.412 billion", "9,596,961 km²", "Density: 153 per/km²", "World Share: 18.47%"));
         countryList.add(new Country("United States", "Washington DC", R.drawable.usa, "333 million", "9,833,520 km²", "Density: 36 per/km²", "World Share: 4.25%"));
-        // Thêm các quốc gia khác tương tự...
+        
 
         countryAdapter = new CountryAdapter(this, countryList);
         listView.setAdapter(countryAdapter);
